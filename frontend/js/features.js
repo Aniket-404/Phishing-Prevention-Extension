@@ -311,5 +311,4 @@ chrome.runtime.onMessage.addListener(
     function(request, sender, sendResponse) {
     if (request.action == "alert_user")
         alert("Malicious URL detected Please Click on Extension Icon For Details");
-        
     });
