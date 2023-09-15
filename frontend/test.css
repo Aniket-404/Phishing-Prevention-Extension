@@ -11,6 +11,7 @@ body {
     align-self: center;
 }
 
+
 h2 {
     margin-top: 20px;
     margin-bottom: 15px;
@@ -21,6 +22,7 @@ h2 {
 h1 {
     align-items: center;
     font-family: 'Russo One', sans-serif;
+    font-weight: lighter;
     color: white;
     font-size: 25px;
     padding: 35px;
