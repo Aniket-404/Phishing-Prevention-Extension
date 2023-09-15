@@ -47,7 +47,7 @@ function classify(tabId, result) {
         isPhish[tabId] = true;
         chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
           chrome.tabs.sendMessage(tabs[0].id, {action: "alert_user"}, function(response) {
-            chrome.tabs.update({url : "block.html"})
+            chrome.tabs.update({url : "block.html"}) 
           });
         });
       } else {
